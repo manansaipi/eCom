@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
+        @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
 
 
     </head>
